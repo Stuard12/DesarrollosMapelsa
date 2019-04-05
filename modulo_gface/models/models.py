@@ -3,8 +3,9 @@
 from odoo import models, fields, api
 
 class configuracion(models.Model):
-    _name = 'modulo_gface.modulo_gface.configuracion'
-     
+    _name = 'modulo_gface.modulo_gface'
+    _description = 'prueba modulo'
+    
     requestor = fields.Char(string='ID de cuenta', size=140, required=True)
     transaction = fields.Char(string='Tipo de transaccion', size=140, required=True)
     contry = fields.Char(string='Pais', size=140, required=True)
