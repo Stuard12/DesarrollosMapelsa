@@ -43,6 +43,6 @@
     <menuitem name="Menu 1" id="modulo_gface.menu_1" parent="modulo_gface.menu_root"/>
     <!-- actions -->
     <menuitem name="List" id="modulo_gface.menu_1_list" parent="modulo_gface.menu_1"
-              action="model_modulo_gface_modulo_gface.action_window"/>
+              action="modulo_gface.modulo_gface.action_window"/>
   </data>
 </odoo>
