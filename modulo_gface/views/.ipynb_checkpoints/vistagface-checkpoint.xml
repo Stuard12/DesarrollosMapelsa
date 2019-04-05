@@ -1,0 +1,52 @@
+<odoo>
+  <data>
+    <!-- definición de vista de lista explícita -->
+    <record model="ir.ui.view" id="modulo_gface.lista_configuracion">
+      <field name="name">Gface lista</field>
+      <field name="model">modulo_gface.modulo_gface.configuracion</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="requestor"/>
+          <field name="transaction"/>
+          <field name="contry"/>
+          <field name="entity"/>            
+        </tree>
+      </field>
+    </record>
+
+    <!-- Acciones que abren vistas sobre modelos -->
+    <record model="ir.actions.act_window" id="modulo_gface.action_window">
+      <field name="name">Gface</field>
+      <field name="res_model">modulo_gface.modulo_gface.configuracion</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="modulo_gface.action_server">
+      <field name="name">ModuloGface server</field>
+      <field name="model_id" ref="model_modulo_gface_modulo_gface"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <menuitem name="ModuloGface" id="modulo_gface.menu_root"/>
+    <!-- menu categories -->
+    <menuitem name="Menu 1" id="modulo_gface.menu_1" parent="modulo_gface.menu_root"/>
+    <menuitem name="Menu 2" id="modulo_gface.menu_2" parent="modulo_gface.menu_root"/>
+    <!-- actions -->
+    <menuitem name="List" id="modulo_gface.menu_1_list" parent="modulo_gface.menu_1"
+              action="modulo_gface.action_window"/>
+    <menuitem name="Server to list" id="modulo_gface" parent="modulo_gface.menu_2"
+              action="modulo_gface.action_server"/>
+    -->
+  </data>
+</odoo>
