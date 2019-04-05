@@ -41,12 +41,8 @@
     <menuitem name="ModuloGface" id="modulo_gface.menu_root"/>
     <!-- menu categories -->
     <menuitem name="Menu 1" id="modulo_gface.menu_1" parent="modulo_gface.menu_root"/>
-    <menuitem name="Menu 2" id="modulo_gface.menu_2" parent="modulo_gface.menu_root"/>
     <!-- actions -->
     <menuitem name="List" id="modulo_gface.menu_1_list" parent="modulo_gface.menu_1"
-              action="modulo_gface.action_window"/>
-    <menuitem name="Server to list" id="modulo_gface" parent="modulo_gface.menu_2"
-              action="modulo_gface.action_server"/>
-    -->
+              action="model_modulo_gface_modulo_gface.action_window"/>
   </data>
 </odoo>
