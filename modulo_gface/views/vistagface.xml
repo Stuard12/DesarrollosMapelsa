@@ -3,7 +3,7 @@
     <!-- definición de vista de lista explícita -->
     <record model="ir.ui.view" id="modulo_gface.lista_configuracion">
       <field name="name">Gface lista</field>
-      <field name="model">modulo_gface.modulo_gface.configuracion</field>
+      <field name="model">modulo_gface.modulo_gface</field>
       <field name="arch" type="xml">
         <tree>
           <field name="requestor"/>
@@ -17,7 +17,7 @@
     <!-- Acciones que abren vistas sobre modelos -->
     <record model="ir.actions.act_window" id="modulo_gface.action_window">
       <field name="name">Gface</field>
-      <field name="res_model">modulo_gface.modulo_gface.configuracion</field>
+      <field name="res_model">modulo_gface.modulo_gface</field>
       <field name="view_mode">tree,form</field>
     </record>
 
