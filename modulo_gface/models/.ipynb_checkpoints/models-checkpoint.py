@@ -12,6 +12,13 @@ class configuracion(models.Model):
     entity = fields.Char(string='Nit', size=140, required=True)
     user = fields.Char(string='Usuario', size=140, required=True)
     userName = fields.Char(string='Nombre de usuario', size=140, required=True)
+    establishmentCode = fields.Char(string='Codigo de establecimiento', size=140, required=True)
+    electronicDevice = fields.Char(string='Dispositivo electronico', size=140, required=True)
+    typeOfAsset = fields.Char(string='Tipo de activio', size=140, required=True)
+    exchangeRate = fields.Char(string='tipo de cambio', size=140, required=True)
+    regimenInformationIsr = fields.Char(string='ISR', size=140, required=True)
+    electronicDeviceCreditNote = fields.Char(string='Dispositivo electronico de nota de credito', size=140, required=True)
+    invoiceDescription = fields.Char(string='Informacion Adicional', size=250, required=True)
      
 # class modulo_gface(models.Model):
 #     _name = 'modulo_gface.modulo_gface'

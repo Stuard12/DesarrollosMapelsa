@@ -3,14 +3,13 @@
     'name': "ModuloGface",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Tablas y requisitos mínimos para la factura electrónica.""",
 
     'description': """
-        Long description of module's purpose
+        Desarrollo de configuracion de las facturas electronicas
     """,
 
-    'author': "My Company",
+    'author': "Mapelsa",
     'website': "http://www.yourcompany.com",
     # 'images' : ['static/src/img/logoGface.jpg'],
     

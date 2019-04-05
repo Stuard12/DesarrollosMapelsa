@@ -9,7 +9,16 @@
           <field name="requestor"/>
           <field name="transaction"/>
           <field name="contry"/>
-          <field name="entity"/>            
+          <field name="entity"/>
+          <field name="user"/>
+          <field name="userName"/>
+          <field name="establishmentCode"/>
+          <field name="electronicDevice"/>
+          <field name="typeOfAsset"/>
+          <field name="exchangeRate"/>
+          <field name="regimenInformationIsr"/>
+          <field name="electronicDeviceCreditNote"/>
+          <field name="invoiceDescription"/>
         </tree>
       </field>
     </record>
