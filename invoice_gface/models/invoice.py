@@ -4,7 +4,7 @@ from odoo import models, fields, api
 class invoice(models.Model):
     _inherit = "invoice_gface.invoice_gface"
     
-    date = fields.date(string='fecha')
+    date = fields.Date(string='fecha')
     
 # class invoice_gface(models.Model):
 #     _name = 'invoice_gface.invoice_gface'
