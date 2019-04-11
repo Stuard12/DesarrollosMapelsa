@@ -36,8 +36,8 @@
     <menuitem name="Opciones" id="modulo_gface.menu_1" parent="modulo_gface.menu_root"/>
     <!-- actions -->
     <menuitem name="Listado" id="modulo_gface.menu_1_list" parent="modulo_gface.menu_1"
-              action="modulo_gface.action_window"/>
+              action="modulo_gface.action_window" sequence="1"/>
     <menuitem name="Facturacion" id="modulo_gface.menu_1_list" parent="modulo_gface.menu_1"
-              action="modulo_gface.action_window"/>
+              action="modulo_gface.action_window" sequence="2"/>
   </data>
 </odoo>
