@@ -26,7 +26,6 @@
     'data': [
         'security/ir.model.access.csv',
         'views/vistagface.xml',
-        'views/account_invoice_view.xml',
         # 'views/views.xml',
         # 'views/templates.xml',
     ],

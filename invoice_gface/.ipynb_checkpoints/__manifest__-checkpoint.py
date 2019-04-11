@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "ModuloGface",
+    'name': "InvoiceGface",
 
     'summary': """
-        Tablas y requisitos mínimos para la factura electrónica.""",
+        Creacion de facturas electronicas""",
 
     'description': """
-        Desarrollo de configuracion de las facturas electronicas
+        Sistema de facturacion consumiendo un web services
     """,
 
     'author': "Mapelsa",
     'website': "http://www.yourcompany.com",
-    # 'images' : ['static/src/img/logoGface.jpg'],
-    
+
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
@@ -20,17 +19,17 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['account'],
+    'depends': ['modulo_gface'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/vistagface.xml',
-        # 'views/views.xml',
-        # 'views/templates.xml',
+        'views/views.xml',
+        #'views/templates.xml',
     ],
     # only loaded in demonstration mode
     #'demo': [
-    #   'demo/demo.xml',
+    #    'demo/demo.xml',
     #],
+    'application': True,
 }
