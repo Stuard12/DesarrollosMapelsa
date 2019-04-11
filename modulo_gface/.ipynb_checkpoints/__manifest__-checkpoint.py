@@ -20,12 +20,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['account'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
         'views/vistagface.xml',
+        'views/account_invoice_view.xml',
         # 'views/views.xml',
         # 'views/templates.xml',
     ],
